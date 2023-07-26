@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './index.css';
 
 
 
@@ -19,11 +19,13 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <header className="App-header">
-          <h1>Digital Clock</h1>
-          <p>{ctime}</p>
-        </header>
+        <div className="clock-container">
+          <div className="clock-title">Digital Clock</div>
+          <div className="clock">{ctime}</div>
+          <div className="footer">Time Zone: UTC+0</div>
+        </div>
       </div>
+
     </>
   );
 };
