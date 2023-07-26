@@ -22,7 +22,7 @@ const App = () => {
         <div className="clock-container">
           <div className="clock-title">Digital Clock</div>
           <div className="clock">{ctime}</div>
-          <div className="footer">Time Zone: UTC+0</div>
+          <div className="footer">Time zone in Pakistan (GMT+5)</div>
         </div>
       </div>
 
